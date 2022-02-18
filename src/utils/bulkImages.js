@@ -20,3 +20,12 @@ export const team = {
     suka: require('../assets/Team/images/suka.png'),
     wahyu: require('../assets/Team/images/wahyu.png'),
 }
+
+export const comic = {
+    first: require('../assets/Comics/first.png'),
+    second: require('../assets/Comics/second.png'),
+    third: require('../assets/Comics/third.png'),
+    fourth: require('../assets/Comics/fourth.png'),
+    fifth: require('../assets/Comics/fifth.png'),
+    sixth: require('../assets/Comics/sixth.png'),
+}
