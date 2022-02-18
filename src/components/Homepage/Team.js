@@ -73,11 +73,11 @@ export default function Team() {
                     <h4 className="text-5xl text-neutral-900 font-bold text-center">About Team</h4>
                 </div>
             </div>
-            <div className="mx-20">
+            <div className="mx-4 md:mx-20">
                 <div className="mt-12 mb-12">
                     <p className="text-center text-neutral-700">Hi everyone! We are Box-United Team we love hiding inside the box, but we are thinking out of the box.</p>
                 </div>
-                <div className="grid grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-3 gap-8">
                     {teams.map((team) => {
                         return (
                             <a href={team.social_media} target={'_blank'} className="rounded-2xl border-4 border-neutral-1000 hover:-mt-3 transition-all duration-300 ease-in-out p-4" rel="noreferrer">

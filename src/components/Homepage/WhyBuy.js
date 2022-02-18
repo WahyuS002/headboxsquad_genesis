@@ -13,7 +13,7 @@ export default function WhyBuy() {
                 <img className="absolute w-full" src={background} alt="Purple Wave" />
             </div>
             <div className="my-16 mx-20 z-10">
-                <div className="grid grid-cols-2 items-center">
+                <div className="grid md:grid-cols-2 items-center">
                     <div>
                         <h4 className="text-5xl text-white font-bold">Why Buy Headbox Squad?</h4>
                         <p className="text-white mt-6 leading-relaxed">

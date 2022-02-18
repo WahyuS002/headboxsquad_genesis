@@ -54,15 +54,15 @@ export default function FAQ() {
     return (
         <div id="faq">
             <div className="flex justify-between">
-                <img className="ml-10" src={ButterflySvg} alt="" />
-                <img className="-mr-60" src={TwigSvg} alt="" />
+                <img className="w-12 md:w-auto ml-10" src={ButterflySvg} alt="" />
+                <img className="w-96 md:w-auto -mr-60" src={TwigSvg} alt="" />
             </div>
-            <div className="mx-20">
-                <div className="-mt-36">
+            <div className="mx-4 md:mx-20">
+                <div className="md:-mt-36">
                     <p className="text-5xl text-neutral-900 font-bold text-center">FAQ</p>
                 </div>
-                <div className="mt-36">
-                    <div className="grid grid-cols-2 gap-8">
+                <div className="mt-12 md:mt-36">
+                    <div className="grid md:grid-cols-2 gap-8">
                         {items.map((item, i) => {
                             return (
                                 <div>

@@ -1,35 +1,34 @@
 import React from 'react'
 
 /* SOCIAL MEDIA SVG */
-import facebook from '../assets/Footer/facebook.svg'
 import instagram from '../assets/Footer/instagram.svg'
-import dribbble from '../assets/Footer/dribbble.svg'
-import linkedIn from '../assets/Footer/linkedIn.svg'
 import twitter from '../assets/Footer/twitter.svg'
+import opensea from '../assets/Footer/opensea.svg'
+import discord from '../assets/Footer/discord.svg'
 
 import logo from '../assets/logo.svg'
 
 const socials = [
     {
-        alt: 'Facebook',
-        svg: facebook,
+        alt: 'Twitter',
+        svg: twitter,
+        link: 'https://twitter.com/headboxsquad',
     },
     {
         alt: 'Instagram',
         svg: instagram,
+        link: 'https://instagram.com/headboxsquad',
     },
     {
-        alt: 'Dribbble',
-        svg: dribbble,
+        alt: 'Opensea',
+        svg: opensea,
+        link: 'https://opensea.io/collection/headbox-squad',
     },
-    {
-        alt: 'LinkedIn',
-        svg: linkedIn,
-    },
-    {
-        alt: 'Twitter',
-        svg: twitter,
-    },
+    // {
+    //     alt: 'Discord',
+    //     svg: discord,
+    //     link: 'https://twitter.com/headboxsquad',
+    // },
 ]
 
 export default function Footer() {
@@ -40,9 +39,9 @@ export default function Footer() {
                     <div className="flex items-center space-x-3">
                         {socials.map((social) => {
                             return (
-                                <div className="bg-white rounded-full w-10 h-10 flex justify-center p-3 cursor-pointer">
+                                <a href={social.link} target="_blank" className="bg-white rounded-full w-10 h-10 flex justify-center p-3" rel="noreferrer">
                                     <img src={social.svg} alt={social.alt} />
-                                </div>
+                                </a>
                             )
                         })}
                     </div>

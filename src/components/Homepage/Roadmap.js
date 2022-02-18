@@ -44,8 +44,8 @@ export default function Roadmap() {
     return (
         <div id="roadmap">
             <div className="flex justify-between">
-                <img src={TwigSvg} alt="" />
-                <img className="mr-28" src={RocketSvg} alt="" />
+                <img className="hidden md:block" src={TwigSvg} alt="" />
+                <img className="mr-28 hidden md:block" src={RocketSvg} alt="" />
             </div>
             <div>
                 <div className="relative">
@@ -57,12 +57,12 @@ export default function Roadmap() {
                     <h4 className="text-5xl text-neutral-900 font-bold text-center">Roadmap</h4>
                 </div>
             </div>
-            <div className="mt-36 mx-20">
-                <div className="grid grid-cols-3 gap-12">
+            <div className="mt-12 md:mt-36 mx-4 md:mx-20">
+                <div className="grid md:grid-cols-3 md:gap-12">
                     {roadmaps.map((roadmap) => {
                         return (
                             <div>
-                                <div className="min-h-[500px]">
+                                <div className="md:min-h-[500px]">
                                     <img src={roadmap.image} alt="" />
                                 </div>
                                 <h5 className="text-2xl text-neutral-900 font-bold text-center -mt-10">{roadmap.title}</h5>

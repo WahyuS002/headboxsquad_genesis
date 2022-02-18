@@ -14,13 +14,13 @@ export default function Home() {
     return (
         <div>
             <div className="relative">
-                <div className="absolute max-w-full inset-0 -z-20 min-h-screen bg-no-repeat bg-[url('./assets/homepage_hero.svg')] md:bg-cover"></div>
+                <div className="absolute max-w-full inset-0 -z-20 min-h-screen bg-no-repeat bg-[url('./assets/homepage_hero.svg')] md:bg-cover bg-top"></div>
             </div>
             <div className="min-h-screen">
                 <Navbar />
                 <Hero />
             </div>
-            <div className="mt-28 mx-20">
+            <div className="md:mt-28">
                 <About />
             </div>
             <div className="mt-36">
