@@ -16,10 +16,15 @@ export default function Traits() {
             <div className="py-20 relative -z-10">
                 <img className="absolute w-full" src={background} alt="Purple Wave" />
             </div>
-            <div className="my-32 mx-20 z-10">
+            <div className="mt-12">
+                <h4 className="text-5xl text-white font-bold text-center">Traits</h4>
+            </div>
+            <div className="mb-32 mt-12 mx-20 z-10">
                 <div className="flex justify-center">
-                    <div className="w-[35rem] h-[35rem] rounded-3xl bg-white">
-                        <img src={traitsGif} className="rounded-3xl" alt="" />
+                    <div className="w-[60rem] h-[38rem] rounded-3xl bg-white">
+                        <div className="flex justify-center">
+                            <img src={traitsGif} className="w-[38rem] rounded-3xl" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

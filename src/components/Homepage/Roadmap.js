@@ -46,7 +46,7 @@ export default function Roadmap() {
         <div id="roadmap">
             <div className="flex justify-between">
                 <img src={TwigSvg} alt="" />
-                <img src={RocketSvg} alt="" />
+                <img className="mr-28" src={RocketSvg} alt="" />
             </div>
             <div>
                 <div className="relative">
@@ -55,7 +55,7 @@ export default function Roadmap() {
                     </div>
                 </div>
                 <div className="-mt-4">
-                    <p className="text-5xl text-neutral-900 font-bold text-center">Roadmap</p>
+                    <h4 className="text-5xl text-neutral-900 font-bold text-center">Roadmap</h4>
                 </div>
             </div>
             <div className="mt-36 mx-20">

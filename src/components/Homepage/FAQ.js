@@ -26,8 +26,8 @@ const items = [
     },
     {
         number: 5,
-        question: 'Is Headbox Squad a good investment?',
-        answer: 'That is definitely your decision. We believe our Headbox Squad will have a long life ahead and evolve in time. However, our success relies on many factors. But we got a high expectation that Headbox Squad would go to the Metaverse.',
+        question: 'What makes Headbox Squad different?',
+        answer: `What makes us different is our goals. We aim the highest so we can share what could be shared. Changing the world is hard, but we would like to give everything to the world to be a better place to live. By that, a mere sentence isn't enough, so make sure you stay to watch us walk through step by step and be with us when we make it happen.`,
     },
     {
         number: 6,
@@ -36,8 +36,8 @@ const items = [
     },
     {
         number: 7,
-        question: 'What kind of land will we get?',
-        answer: `It's a land in THE HEADBOX LAND. Every HEADBOX unit is part of our SQUAD so, each holder will get a spot.`,
+        question: `How we're going to take an active role in real life?`,
+        answer: `#Spreadthebox is our campaign. It is one of our plans to take part in the world. We believe our actions to impact the world can't be written enough here, but surely you can see it yourself within our Roadmap.`,
     },
 ]
 

@@ -3,11 +3,11 @@ import aboutGif from '../../assets/About/about.gif'
 
 export default function About() {
     return (
-        <div className="flex items-center gap-2" id="about">
-            <div className="w-1/2">
-                <img src={aboutGif} alt="" />
+        <div className="grid grid-cols-7 gap-2 items-center" id="about">
+            <div className="col-span-3">
+                <img className="w-full" src={aboutGif} alt="" />
             </div>
-            <div className="w-1/2">
+            <div className="col-span-4 ml-5">
                 <h4 className="text-5xl text-gray-900 font-bold">What Is Headbox Squad?</h4>
                 <p className="text-neutral-700 mt-6 leading-relaxed">
                     Headbox Squad is a social-life-based NFT collection packed with a boxed perspective. By randomly generated on the Ethereum blockchain, the Headbox Squad launched the first-gen
