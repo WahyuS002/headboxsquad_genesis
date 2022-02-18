@@ -52,7 +52,7 @@ export default function FAQ() {
     }
 
     return (
-        <div>
+        <div id="faq">
             <div className="flex justify-between">
                 <img className="ml-10" src={ButterflySvg} alt="" />
                 <img className="-mr-60" src={TwigSvg} alt="" />

@@ -3,7 +3,7 @@ import aboutGif from '../../assets/About/about.gif'
 
 export default function About() {
     return (
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2" id="about">
             <div className="w-1/2">
                 <img src={aboutGif} alt="" />
             </div>

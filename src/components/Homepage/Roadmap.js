@@ -43,7 +43,7 @@ const roadmaps = [
 
 export default function Roadmap() {
     return (
-        <div>
+        <div id="roadmap">
             <div className="flex justify-between">
                 <img src={TwigSvg} alt="" />
                 <img src={RocketSvg} alt="" />

@@ -62,7 +62,7 @@ const teams = [
 
 export default function Team() {
     return (
-        <div>
+        <div id="team">
             <div>
                 <div className="relative">
                     <div className="flex justify-center">
@@ -80,8 +80,8 @@ export default function Team() {
                 <div className="grid grid-cols-3 gap-8">
                     {teams.map((team) => {
                         return (
-                            <a href={team.social_media} target={'_blank'} className="rounded-2xl border-4 border-neutral-1000 hover:-mt-3 transition-all duration-300 ease-in-out p-2" rel="noreferrer">
-                                <img src={team.pfp} alt="" />
+                            <a href={team.social_media} target={'_blank'} className="rounded-2xl border-4 border-neutral-1000 hover:-mt-3 transition-all duration-300 ease-in-out p-4" rel="noreferrer">
+                                <img className="w-full" src={team.pfp} alt="" />
                                 <div className="mt-8">
                                     <h4 className="text-5xl text-neutral-900 font-bold text-center">{team.name}</h4>
                                     <h6 className="text-neutral-900 font-medium text-center mt-4">({team.role})</h6>

@@ -5,7 +5,7 @@ import whyImage from '../../assets/WhyBuy/image.png'
 
 export default function WhyBuy() {
     return (
-        <div className="relative">
+        <div className="relative" id="why_buy">
             <div className="absolute -right-14 -top-20">
                 <img src={flower} alt="" />
             </div>
