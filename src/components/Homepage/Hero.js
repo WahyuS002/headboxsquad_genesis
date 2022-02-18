@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
     return (
-        <div className="mt-12 mx-20">
+        <div className="mt-6 mx-20">
             <div className="relative">
                 <h1 className="text-center text-7xl font-bold text-white z-10">Discover Every Box</h1>
                 <span className="text-center text-7xl font-bold text-primary-90 absolute inset-0 right-2 top-1 -z-10">Discover Every Box</span>
