@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { Link } from 'react-router-dom'
+import { toast } from 'react-toastify'
 
 export default function HamburgerMenu() {
     return (
@@ -52,7 +53,14 @@ export default function HamburgerMenu() {
                         </div>
                         <div className="p-3">
                             <Menu.Item>
-                                <button className="bg-primary-90 px-2 py-3 rounded-lg text-white font-bold shadow-xl shadow-primary/30 text-sm block text-center">Mint now</button>
+                                <button
+                                    className="bg-primary-90 px-2 py-3 rounded-lg text-white font-bold shadow-xl shadow-primary/30 text-sm block text-center"
+                                    onClick={() => {
+                                        toast('Soon')
+                                    }}
+                                >
+                                    Mint now
+                                </button>
                             </Menu.Item>
                         </div>
                     </Menu.Items>

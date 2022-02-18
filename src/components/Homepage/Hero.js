@@ -1,4 +1,5 @@
 import React from 'react'
+import { toast } from 'react-toastify'
 
 export default function Hero() {
     return (
@@ -12,7 +13,14 @@ export default function Hero() {
                 <span className="text-center text-3xl font-bold text-primary-90 absolute inset-0 right-[0.3rem] top-[0.1rem] -z-10">7,777 Boxes in Headbox Squad</span>
             </div>
             <div className="mt-12 flex justify-center">
-                <button className="bg-primary-90 text-white font-bold px-12 py-4 rounded-md">Mint Now</button>
+                <button
+                    className="bg-primary-90 hover:shadow-xl transition-all duration-300 ease-in-out text-white font-bold px-12 py-4 rounded-md"
+                    onClick={() => {
+                        toast('Soon')
+                    }}
+                >
+                    Mint Now
+                </button>
             </div>
         </div>
     )
