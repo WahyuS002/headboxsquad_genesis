@@ -9,7 +9,7 @@ export default function Comic() {
         <div>
             <div className="relative">
                 <div
-                    className="absolute max-w-full inset-0 -z-20 bg-no-repeat bg-[url('./assets/hero.svg')] md:bg-cover"
+                    className="absolute max-w-full inset-0 -z-20 bg-no-repeat bg-[url('./assets/comic_hero.svg')] md:bg-cover"
                     style={{
                         height: '23.125rem',
                     }}

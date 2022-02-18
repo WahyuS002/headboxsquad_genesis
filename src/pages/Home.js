@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <div>
             <div className="relative">
-                <div className="absolute max-w-full inset-0 -z-20 min-h-screen bg-no-repeat bg-[url('./assets/hero.svg')] md:bg-cover"></div>
+                <div className="absolute max-w-full inset-0 -z-20 min-h-screen bg-no-repeat bg-[url('./assets/homepage_hero.svg')] md:bg-cover"></div>
             </div>
             <div className="min-h-screen">
                 <Navbar />

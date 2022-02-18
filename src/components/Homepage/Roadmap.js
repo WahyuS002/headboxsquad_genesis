@@ -13,7 +13,6 @@ const roadmaps = [
     {
         title: '3D voxel of Headbox for Metaverse',
         image: roadmap.metaverse,
-        custom_class: 'mt-10',
     },
     {
         title: '#spreadthebox',
@@ -62,9 +61,9 @@ export default function Roadmap() {
                 <div className="grid grid-cols-3 gap-12">
                     {roadmaps.map((roadmap) => {
                         return (
-                            <div>
-                                <img src={roadmap.image} alt="" />
-                                <h5 className={'text-2xl text-neutral-900 font-bold text-center ' + roadmap.custom_class}>{roadmap.title}</h5>
+                            <div className="grid grid-rows-2">
+                                <img height="500px" src={roadmap.image} alt="" />
+                                <h5 className="text-2xl text-neutral-900 font-bold text-center">{roadmap.title}</h5>
                             </div>
                         )
                     })}
