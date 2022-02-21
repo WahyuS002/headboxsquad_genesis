@@ -35,8 +35,8 @@ export default function Footer() {
     return (
         <div className="bg-primary-90">
             <div className="mx-20 py-20">
-                <div className="flex justify-between items-center">
-                    <div className="flex items-center space-x-3">
+                <div className="flex flex-col md:flex-row justify-between items-center">
+                    <div className="flex items-center space-x-3 order-last md:order-first mt-4 md:mt-0">
                         {socials.map((social) => {
                             return (
                                 <a href={social.link} target="_blank" className="bg-white rounded-full w-10 h-10 flex justify-center p-3" rel="noreferrer">
@@ -48,7 +48,7 @@ export default function Footer() {
                     <div>
                         <img src={logo} alt="" />
                     </div>
-                    <div>
+                    <div className="mt-2 md:mt-0">
                         <p className="text-white">2022 @ Headbox</p>
                     </div>
                 </div>

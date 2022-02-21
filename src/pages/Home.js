@@ -26,22 +26,22 @@ export default function Home() {
             <div className="mt-36">
                 <WhyBuy />
             </div>
-            <div className="mt-80">
+            <div className="mt-32 md:mt-80">
                 <Roadmap />
             </div>
             <div className="mt-80">
                 <Traits />
             </div>
-            <div className="mt-80">
+            <div className="mt-32 md:mt-80">
                 <SpreadTheBox />
             </div>
-            <div className="mt-80">
+            <div className="mt-32 md:mt-80">
                 <Team />
             </div>
-            <div className="mt-80">
+            <div className="mt-32 md:mt-80">
                 <FAQ />
             </div>
-            <div className="mt-80">
+            <div className="mt-32 md:mt-80">
                 <Footer />
             </div>
         </div>
