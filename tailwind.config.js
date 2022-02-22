@@ -34,6 +34,15 @@ module.exports = {
                     1000: '#0F182E',
                 },
             },
+            keyframes: {
+                squiggly: {
+                    '0%': { transform: 'none' },
+                    '100%': { transform: 'skew(1.5deg, 0.2deg) translate(0, -1.5px)' },
+                },
+            },
+            animation: {
+                squiggly: 'squiggly 0.25s steps(2) infinite',
+            },
         },
     },
     plugins: [],
