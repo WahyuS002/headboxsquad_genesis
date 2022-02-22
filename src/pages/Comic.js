@@ -19,7 +19,7 @@ export default function Comic() {
                 <Navbar />
                 <Hero />
             </div>
-            <div className="mt-36 mx-20">
+            <div className="mt-36 mx-4 md:mx-20">
                 <Content />
             </div>
             <div className="mt-36">

@@ -1,7 +1,6 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { Link } from 'react-router-dom'
-import { toast } from 'react-toastify'
 
 export default function HamburgerMenu() {
     return (
@@ -26,22 +25,22 @@ export default function HamburgerMenu() {
                     <Menu.Items className="absolute right-0 w-60 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div className="px-1 py-1 ">
                             <Menu.Item>
-                                <a href="#about" className="font-medium text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm">
+                                <a href="/" className="font-medium text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm">
                                     About
                                 </a>
                             </Menu.Item>
                             <Menu.Item>
-                                <a href="#why_buy" className="font-medium text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm">
+                                <a href="/" className="font-medium text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm">
                                     Why Buy
                                 </a>
                             </Menu.Item>
                             <Menu.Item>
-                                <a href="#roadmap" className="font-medium text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm">
+                                <a href="/" className="font-medium text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm">
                                     Roadmap
                                 </a>
                             </Menu.Item>
                             <Menu.Item>
-                                <a href="#team" className="font-medium text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm">
+                                <a href="/" className="font-medium text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm">
                                     Team
                                 </a>
                             </Menu.Item>
@@ -53,14 +52,12 @@ export default function HamburgerMenu() {
                         </div>
                         <div className="p-3">
                             <Menu.Item>
-                                <button
-                                    className="bg-primary-90 px-2 py-3 rounded-lg text-white font-bold shadow-xl shadow-primary/30 text-sm block text-center"
-                                    onClick={() => {
-                                        toast('Soon')
-                                    }}
+                                <a
+                                    href="https://mint.headboxsquad.com"
+                                    className="bg-primary-90 px-2 py-3 rounded-lg text-white font-bold shadow-xl shadow-primary/30 text-sm block text-center w-full"
                                 >
                                     Mint now
-                                </button>
+                                </a>
                             </Menu.Item>
                         </div>
                     </Menu.Items>

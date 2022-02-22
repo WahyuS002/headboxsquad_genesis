@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { toast } from 'react-toastify'
 import logo from '../../assets/logo.svg'
 import HamburgerMenu from './HamburgerMenu'
 
@@ -32,10 +31,8 @@ export default function Navbar() {
                     </li>
                 </ul>
                 <button
+                    href="https://mint.headboxsquad.com"
                     className="bg-white hover:shadow-xl hover:shadow-primary-90/80 transition-all duration-300 ease-in-out py-4 px-5 text-primary-90 font-bold rounded-md"
-                    onClick={() => {
-                        toast('Soon')
-                    }}
                 >
                     Mint Now
                 </button>

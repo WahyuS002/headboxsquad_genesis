@@ -40,9 +40,9 @@ export default function Content() {
         <div>
             {comics.map((comic) => {
                 return (
-                    <div className="flex odd:flex-row even:flex-row-reverse justify-center items-center my-36 gap-12">
+                    <div className="md:flex odd:flex-row even:flex-row-reverse justify-center items-center my-8 md:my-36 gap-12">
                         <img src={comic.img} alt="" />
-                        <p className="whitespace-pre-line text-neutral-700 font-inter leading-relaxed">{comic.content}</p>
+                        <p className="whitespace-pre-line text-neutral-700 font-inter leading-relaxed mt-8 md:mt-0">{comic.content}</p>
                     </div>
                 )
             })}

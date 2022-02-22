@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { toast } from 'react-toastify'
 import logo from '../../assets/logo.svg'
 import HamburgerMenu from './HamburgerMenu'
 
 export default function Navbar() {
     return (
         <div>
-            <nav className="flex items-center justify-between py-12 px-20">
+            <nav className="hidden md:flex items-center justify-between py-12 px-20">
                 <div>
                     <img src={logo} alt="" />
                 </div>
@@ -31,14 +30,12 @@ export default function Navbar() {
                         <Link to="comics">Comics</Link>
                     </li>
                 </ul>
-                <button
+                <a
+                    href="https://mint.headboxsquad.com"
                     className="bg-white hover:shadow-xl hover:shadow-primary-90/80 transition-all duration-300 ease-in-out py-4 px-5 text-primary-90 font-bold rounded-md"
-                    onClick={() => {
-                        toast('Soon')
-                    }}
                 >
                     Mint Now
-                </button>
+                </a>
             </nav>
             <div className="flex md:hidden justify-between items-center w-full p-4">
                 <p className="text-sm font-bold uppercase text-white">HeadboxSquad</p>
