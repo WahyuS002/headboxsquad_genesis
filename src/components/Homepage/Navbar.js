@@ -30,12 +30,12 @@ export default function Navbar() {
                         <Link to="comics">Comics</Link>
                     </li>
                 </ul>
-                <button
+                <a
                     href="https://mint.headboxsquad.com"
                     className="bg-white hover:shadow-xl hover:shadow-primary-90/80 transition-all duration-300 ease-in-out py-4 px-5 text-primary-90 font-bold rounded-md"
                 >
                     Mint Now
-                </button>
+                </a>
             </nav>
             <div className="flex md:hidden justify-between items-center w-full p-4">
                 <p className="text-sm font-bold uppercase text-white">HeadboxSquad</p>
