@@ -14,34 +14,34 @@ export default function Home() {
     return (
         <div>
             <div className="relative">
-                <div className="absolute max-w-full inset-0 -z-20 min-h-screen bg-no-repeat bg-[url('./assets/homepage_hero.svg')] md:bg-cover bg-top"></div>
+                <div className="absolute max-w-full inset-0 -z-20 min-h-[110vh] bg-no-repeat bg-[url('./assets/homepage_hero.svg')] md:bg-cover bg-top">
+                    <Navbar />
+                    <Hero />
+                </div>
             </div>
-            <div className="min-h-screen">
-                <Navbar />
-                <Hero />
-            </div>
-            <div className="md:mt-28">
+            <div className="min-h-screen"></div>
+            <div className="md:mt-36">
                 <About />
             </div>
             <div className="mt-36">
                 <WhyBuy />
             </div>
-            <div className="mt-32 md:mt-80">
+            <div className="mt-32">
                 <Roadmap />
             </div>
             <div className="mt-80">
                 <Traits />
             </div>
-            <div className="mt-32 md:mt-80">
+            <div className="mt-32 md:mt-52">
                 <SpreadTheBox />
             </div>
-            <div className="mt-32 md:mt-80">
+            <div className="mt-32 md:mt-52">
                 <Team />
             </div>
-            <div className="mt-32 md:mt-80">
+            <div className="mt-32 md:mt-52">
                 <FAQ />
             </div>
-            <div className="mt-32 md:mt-80">
+            <div className="mt-32 md:mt-52">
                 <Footer />
             </div>
         </div>

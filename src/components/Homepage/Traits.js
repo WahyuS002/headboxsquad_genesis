@@ -6,13 +6,13 @@ import traitsGif from '../../assets/Traits/traits.gif'
 export default function Traits() {
     return (
         <div className="relative">
-            <div className="absolute -left-14 -top-2 md:-top-6">
+            <div className="absolute -left-14 -top-2 md:-top-20">
                 <img className="w-1/2 md:w-auto" src={flower} alt="" />
             </div>
-            <div className="absolute -right-16 md:-right-20 -top-10 md:-top-36">
+            <div className="absolute -right-16 md:-right-20 -top-10 md:-top-60">
                 <img className="w-52 md:w-auto" src={hardwood} alt="" />
             </div>
-            <div className="bg-[url(./assets/Traits/background.png)] bg-cover py-32 md:py-20">
+            <div className="bg-[url(./assets/Traits/background.png)] min-h-[145vh] bg-cover py-32 md:py-20">
                 <div className="mt-12">
                     <h4 className="text-5xl text-white font-bold text-center">Traits</h4>
                 </div>
