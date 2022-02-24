@@ -8,7 +8,7 @@ export default function WhyBuy() {
             <div className="absolute -right-24 md:-right-14 -top-20 md:-top-40">
                 <img className="w-3/4 md:w-full" src={flower} alt="" />
             </div>
-            <div className="bg-[url(./assets/WhyBuy/background.svg)] bg-cover min-h-[140vh] py-32 md:py-20">
+            <div className="bg-[url(./assets/WhyBuy/background.svg)] bg-cover md:min-h-[140vh] py-32 md:py-20">
                 <div className="md:my-16 mx-4 md:mx-20 z-10">
                     <div className="flex flex-col-reverse md:flex-row items-center">
                         <div className="md:w-11/12">

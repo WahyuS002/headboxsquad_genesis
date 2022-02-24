@@ -12,7 +12,7 @@ export default function Traits() {
             <div className="absolute -right-16 md:-right-20 -top-10 md:-top-60">
                 <img className="w-52 md:w-auto" src={hardwood} alt="" />
             </div>
-            <div className="bg-[url(./assets/Traits/background.png)] min-h-[145vh] bg-cover py-32 md:py-20">
+            <div className="bg-[url(./assets/Traits/background.png)] md:min-h-[145vh] bg-cover py-32 md:py-20">
                 <div className="mt-12">
                     <h4 className="text-5xl text-white font-bold text-center">Traits</h4>
                 </div>

@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <div>
             <div className="relative">
-                <div className="absolute max-w-full inset-0 -z-20 min-h-[110vh] bg-no-repeat bg-[url('./assets/homepage_hero.svg')] md:bg-cover bg-top">
+                <div className="absolute max-w-full inset-0 -z-20 min-h-screen md:min-h-[110vh] bg-no-repeat bg-[url('./assets/homepage_hero.svg')] md:bg-cover bg-top">
                     <Navbar />
                     <Hero />
                 </div>
@@ -32,7 +32,7 @@ export default function Home() {
             <div className="mt-80">
                 <Traits />
             </div>
-            <div className="mt-32 md:mt-52">
+            <div className="mt-24 md:mt-52">
                 <SpreadTheBox />
             </div>
             <div className="mt-32 md:mt-52">
