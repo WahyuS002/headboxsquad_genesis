@@ -14,12 +14,12 @@ export default function Home() {
     return (
         <div>
             <div className="relative">
-                <div className="absolute max-w-full inset-0 -z-20 min-h-screen md:min-h-[110vh] bg-no-repeat bg-[url('./assets/homepage_hero.svg')] md:bg-cover bg-top">
-                    <Navbar />
-                    <Hero />
-                </div>
+                <div className="absolute max-w-full inset-0 -z-20 min-h-screen md:min-h-[110vh] bg-no-repeat bg-[url('./assets/homepage_hero.svg')] md:bg-cover bg-top"></div>
             </div>
-            <div className="min-h-screen"></div>
+            <div className="min-h-screen">
+                <Navbar />
+                <Hero />
+            </div>
             <div className="md:mt-36">
                 <About />
             </div>
