@@ -24,11 +24,11 @@ const socials = [
         svg: opensea,
         link: 'https://opensea.io/collection/headbox-squad',
     },
-    // {
-    //     alt: 'Discord',
-    //     svg: discord,
-    //     link: 'https://twitter.com/headboxsquad',
-    // },
+    {
+        alt: 'Discord',
+        svg: discord,
+        link: 'http://discord.gg/headboxsquad',
+    },
 ]
 
 export default function Footer() {
