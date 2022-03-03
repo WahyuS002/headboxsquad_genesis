@@ -27,7 +27,7 @@ const socials = [
     {
         alt: 'Discord',
         svg: discord,
-        link: 'http://discord.gg/headboxsquad',
+        link: 'https://discord.gg/K2pxQ3htxf',
     },
 ]
 
