@@ -5,6 +5,7 @@ import instagram from '../assets/Footer/instagram.svg'
 import twitter from '../assets/Footer/twitter.svg'
 import opensea from '../assets/Footer/opensea.svg'
 import discord from '../assets/Footer/discord.svg'
+import medium from '../assets/Footer/medium.svg'
 
 import logo from '../assets/logo.svg'
 
@@ -28,6 +29,11 @@ const socials = [
         alt: 'Discord',
         svg: discord,
         link: 'https://discord.gg/K2pxQ3htxf',
+    },
+    {
+        alt: 'Medium',
+        svg: medium,
+        link: 'https://medium.com/@headboxsquad',
     },
 ]
 
