@@ -23,7 +23,7 @@ const socials = [
     {
         alt: 'Opensea',
         svg: opensea,
-        link: 'https://opensea.io/collection/headbox-squad',
+        link: 'https://opensea.io/collection/headboxsquadgenesis',
     },
     {
         alt: 'Discord',
