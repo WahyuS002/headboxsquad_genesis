@@ -12,9 +12,7 @@ export default function Hero() {
                 <span className="text-center text-3xl font-bold text-primary-90 absolute inset-0 right-[0.3rem] top-[0.1rem] -z-10">999 Boxes in Headbox Squad</span>
             </div>
             <div className="mt-12 flex justify-center">
-                <a href="https://mint.headboxsquad.com" className="bg-primary-90 hover:shadow-xl transition-all duration-300 ease-in-out text-white font-bold px-12 py-4 rounded-md">
-                    Mint Now
-                </a>
+                <button className="bg-primary-90 hover:shadow-xl transition-all duration-300 ease-in-out text-white font-bold px-12 py-4 rounded-md">Sold Out</button>
             </div>
         </div>
     )

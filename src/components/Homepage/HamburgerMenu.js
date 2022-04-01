@@ -58,10 +58,10 @@ export default function HamburgerMenu() {
                         <div className="p-3">
                             <Menu.Item>
                                 <a
-                                    href="https://mint.headboxsquad.com"
+                                    href="https://opensea.io/collection/headboxsquadgenesis"
                                     className="bg-primary-90 px-2 py-3 rounded-lg text-white font-bold shadow-xl shadow-primary/30 text-sm block text-center w-full"
                                 >
-                                    Mint now
+                                    Buy on Opensea
                                 </a>
                             </Menu.Item>
                         </div>

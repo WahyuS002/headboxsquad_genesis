@@ -31,10 +31,10 @@ export default function Navbar() {
                     </li>
                 </ul>
                 <a
-                    href="https://mint.headboxsquad.com"
+                    href="https://opensea.io/collection/headboxsquadgenesis"
                     className="bg-white hover:shadow-xl hover:shadow-primary-90/80 transition-all duration-300 ease-in-out py-4 px-5 text-primary-90 font-bold rounded-md"
                 >
-                    Mint Now
+                    Buy on Opensea
                 </a>
             </nav>
             <div className="flex md:hidden justify-between items-center w-full p-4">
